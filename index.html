@@ -941,6 +941,41 @@ header {
 }
 
 
+
+
+
+
+/* Logo responsive - AGREGAR ESTO */
+@media (max-width: 768px) {
+    .logo {
+        width: 150px; /* Reducido de 180px */
+        height: 60px;
+    }
+    
+    .navbar {
+        padding: 0.5rem 0; /* Menos padding en móvil */
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 120px; /* Reducido de 150px */
+        height: 50px;
+    }
+    
+    header {
+        padding: 0 10px; /* Un poco de padding en los lados */
+    }
+}
+
+/* Para pantallas muy pequeñas (iPhone SE, etc) */
+@media (max-width: 375px) {
+    .logo {
+        width: 100px;
+        height: 45px;
+    }
+}
+
     </style>
 </head>
 <body>
